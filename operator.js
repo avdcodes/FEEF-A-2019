@@ -87,6 +87,7 @@ ambrosia.post('/uploadazz', (req, res) => {
                 }).single('image');
             uploader(req, res, (err) => {
                 if (err) {
+                    console.log(1, err);
                     res.json({done: false, message: err});
                     wAITBOI = false;
                 } else {
@@ -101,6 +102,7 @@ ambrosia.post('/uploadazz', (req, res) => {
                             wAITBOI = false;
                         });
                     }).catch(err => {
+                        console.log(2, err);
                         res.json({done: false, message: err});
                     })
                 }
@@ -114,6 +116,7 @@ ambrosia.post('/uploadazz', (req, res) => {
                 }).single('video');
                 uploader(req, res, (err) => {
                     if (err) {
+                        console.log(3, err);
                         res.json({done: false, message: err});
                         wAITBOI = false;
                     } else {
@@ -128,6 +131,7 @@ ambrosia.post('/uploadazz', (req, res) => {
                                 wAITBOI = false;
                             });
                         }).catch(err => {
+                            console.log(4, err);
                             res.json({done: false, message: err});
                         })
                     }
