@@ -139,7 +139,7 @@
         letTheSpiceFlow(stuff.stuff.length);
     })
 
-    var roooooty = io.connect('http://dannix.herokuapp.com');
+    var roooooty = io.connect('http://feef-a2019.herokuapp.com');
 
     roooooty.on('connect', function() {
 
