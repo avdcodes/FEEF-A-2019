@@ -17,6 +17,7 @@
                     if (itemz[i].classList.contains('phatTony')) {
                         itemz[i].classList.remove('phatTony');
                         if (itemz[i].src.indexOf('.MOV') !== -1 || itemz[antManThanosTruck - 1].src.indexOf('.mp4') !== -1) {
+                            console.log(itemz[i]);
                             itemz[i].pause();
                         }
                     }
