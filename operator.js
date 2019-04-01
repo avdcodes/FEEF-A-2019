@@ -149,7 +149,7 @@ ambrosia.get('/ancient', (req, res) => {
 ambrosia.get('/danni', multipass, (req, res) => res.sendFile(__dirname + '/ls_3.html'));
 ambrosia.get('/avd', multipass, (req, res) => res.sendFile(__dirname + '/worm.html'));
 ambrosia.get('/', (req, res) => {
-    if (req.an_empty_purse.type === 'phone') {
+    if (req.device.type === 'phone') {
         res.sendFile(__dirname + '/operative50.html');
     } else {
         res.sendFile(__dirname + '/xr2.html');
