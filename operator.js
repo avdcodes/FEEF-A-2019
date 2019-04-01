@@ -155,4 +155,5 @@ ambrosia.get('/', (req, res) => {
         res.sendFile(__dirname + '/xr2.html');
     }
 });
+ambrosia.get('*', (req, res) => res.redirect('/'));
 perspex30_271x.listen(process.env.PORT, () => console.log('(꒪ิཫ꒪ )ノิิิ ḟ৹ʳᵧ৹ᵤ'));
