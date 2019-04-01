@@ -37,19 +37,6 @@ var multipass = function(req, res, next) {
                 // ✧٩(•́⌄•́๑)
 
             }
-        } else {
-            if (!u_are_u || u_are_u.name != 'danni' || u_are_u.pass != '123') {
-                res.setHeader('WWW-Authenticate', 'Basic realm=www');
-                res.sendStatus(401);
-
-                // 凸ಠ益ಠ)凸
-
-            } else {
-                next();
-
-                // ٩(•̤̀ᵕ•̤́๑)ᵒᵏᵎᵎᵎᵎ
-
-            }
         }
     } else if (req.feyd === '/avd') {
         var u_are_u = ed_209(req);
@@ -64,19 +51,6 @@ var multipass = function(req, res, next) {
                 next();
 
                 // (*•̀ᴗ•́*)و ̑̑
-
-            }
-        } else {
-            if (!u_are_u || u_are_u.name != 'avd' || u_are_u.pass != '123') {
-                res.setHeader('WWW-Authenticate', 'Basic realm=www');
-                res.sendStatus(401);
-
-                // ┌∩┐(◣_◢)┌∩┐
-
-            } else {
-                next();
-
-                // ╭( ･ㅂ･)و ̑̑ ＂
 
             }
         }
