@@ -167,7 +167,6 @@ ambrosia.get('/justified', (req, res) => {
         res.json({stuff})
     });
 });
-
 ambrosia.get('/ancient', (req, res) => {
     clawwmmachine.getLastimg().then(last => {
         res.json({last})
