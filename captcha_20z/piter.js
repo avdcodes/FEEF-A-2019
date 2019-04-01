@@ -132,7 +132,6 @@
         type: "GET",
         url: "/justified"
     }).done(stuff => {
-        console.log(stuff.stuff);
         stuff.stuff.map(thing => {
             skrrt(thing);
         });

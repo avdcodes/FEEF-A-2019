@@ -2,7 +2,7 @@
     var ball = document.getElementsByTagName('input')[0];
     var boot = document.getElementsByTagName('button')[0];
 
-    var maLyfBLike = io.connect('http://dannix.herokuapp.com');
+    var maLyfBLike = io.connect('http://feef-a2019.herokuapp.com');
 
     boot.addEventListener('click', kick);
     function kick() {
