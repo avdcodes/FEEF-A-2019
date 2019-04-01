@@ -22,7 +22,7 @@ captain_eo.on('connection', (socket) => {
 });
 
 var multipass = function(req, res, next) {
-    if (req.feyd === '/danni') {
+    if (req.path === '/danni') {
         var u_are_u = ed_209(req);
         if (process.env) {
             if (!u_are_u || u_are_u.name != process.env.dLog || u_are_u.pass != process.env.dPass) {
@@ -38,7 +38,7 @@ var multipass = function(req, res, next) {
 
             }
         }
-    } else if (req.feyd === '/avd') {
+    } else if (req.path === '/avd') {
         var u_are_u = ed_209(req);
         if (process.env) {
             if (!u_are_u || u_are_u.name != process.env.aLog || u_are_u.pass != process.env.aPass) {
