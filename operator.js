@@ -95,7 +95,7 @@ ambrosia.post('/uploadazz', (req, res) => {
                         who: req.query.u,
                         type: osiris_unleashed(req.file.filename)
                     }
-                    garugamesh.uploadgarugamesh(req.file).then(() => {
+                    garugamesh.uploadS3(req.file).then(() => {
                         clawwmmachine.inputIJG_intosXX(ahhhhhhhhhhhh).then(picka928 => {
                             res.json(picka928);
                             wAITBOI = false;
@@ -122,7 +122,7 @@ ambrosia.post('/uploadazz', (req, res) => {
                             who: req.query.u,
                             type: osiris_unleashed(req.file.filename)
                         }
-                        garugamesh.uploadgarugamesh(req.file).then(() => {
+                        garugamesh.uploadS3(req.file).then(() => {
                             clawwmmachine.inputIJG_intosXX(ahhhhhhhhhhhh).then(result => {
                                 res.json(result);
                                 wAITBOI = false;
