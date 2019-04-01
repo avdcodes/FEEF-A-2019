@@ -33,7 +33,7 @@
                         if (wut.done === 'waiting') {
                             alert('hold up...waiting for the server to process current upload\n꒰●꒡ ̫ ꒡●꒱');
                         } else {
-                            alert('hell naw, summit be fukd\n(ㆀ˘･з･˘)ωҺa ƭ？');
+                            alert('hell naw, summit be fukd\n(ㆀ˘･з･˘)ωҺa ƭ？', wut.message);
                         }
                     }
                     kawaii.innerText = '(￣o￣) ';
@@ -63,7 +63,7 @@
                         if (wut.done === 'waiting') {
                             alert('hold up...waiting for the server to process current upload\n꒰●꒡ ̫ ꒡●꒱');
                         } else {
-                            alert('hell naw, summit be fukd\n(ㆀ˘･з･˘)ωҺa ƭ？');
+                            alert('hell naw, summit be fukd\n(ㆀ˘･з･˘)ωҺa ƭ？', wut.message);
                         }
                     }
                     kawaii.innerText = '(￣o￣) ';
