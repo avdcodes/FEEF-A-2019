@@ -5,7 +5,7 @@ const captain_eo = require('socket.io')(perspex30_271x);
 const ed_209 = require('basic-auth');
 const rotak34 = require('multer');
 const ktm_racing = require('uid-safe');
-const feyd = require('path');
+const path = require('path');
 const an_empty_purse = require('express-device');
 const clawwmmachine = require('./huluplus/clawwmmachine.js');
 const garugamesh = require('./garugamesh.js');
@@ -62,8 +62,8 @@ var floppy4d = rotak34.diskStorage({
         callback(null, __dirname + '/captcha_20z/an_ether');
     },
     filename: function (req, file, callback) {
-      ktm_racing(24).then(function(silkworm) {
-          callback(null, silkworm + feyd.extname(file.originalname));
+      ktm_racing(24).then(function(uid) {
+          callback(null, uid + path.extname(file.originalname));
       });
     }
 });
