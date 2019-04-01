@@ -1,6 +1,6 @@
 # FEEF-A-2019
 
-avd presents FEEF-A 2019, a new digital work by Seoul and London based artist Daniel Schine Lee. Specifically designed for mobile devices users can view the work by going to this website on a smartphone.
+avd presents FEEF-A 2019, a new digital work by Seoul and London based artist Daniel Schine Lee. Specifically designed for mobile devices; users can view the work by going to this website on a smartphone.
 
 FEEF-A 2019 is a digital performance framed within a game. The artist will kick-off and the host (avd) will respond. A short football video will be uploaded once a day for a month; each clip being a response to the previous one and in turn creating a one-two between the artist and the host.
 

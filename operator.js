@@ -181,4 +181,4 @@ ambrosia.get('/', (req, res) => {
         res.sendFile(__dirname + '/xr2.html');
     }
 });
-perspex30_271x.listen(process.env.PORT || 8080, () => console.log('(꒪ิཫ꒪ )ノิิิ ḟ৹ʳᵧ৹ᵤ'));
+perspex30_271x.listen(process.env.PORT, () => console.log('(꒪ิཫ꒪ )ノิิิ ḟ৹ʳᵧ৹ᵤ'));

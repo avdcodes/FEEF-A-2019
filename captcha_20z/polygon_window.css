@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    /* font-family: yaboi; */
+}
+
+@font-face {
+    font-family: yaboi;
+    src: url(62DRAGZ.otf);
+}
+
+body {
+    width: 100vw;
+    height: 101vh;
+    background: linear-gradient(32deg, palegreen, khaki, lavenderblush);
+}
+
+#shadamIX {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-family: yaboi;
+    /* font-size: 60px; */
+}
+
+h1 {
+    position: absolute;
+    /* z-index: -1; */
+    bottom: 20px;
+    right: 40px;
+    color: black;
+    font-family: yaboi;
+    font-style: italic;
+    font-size: 40px;
+    text-align: right;
+    width: 286px;
+}
+
+h4 {
+    position: absolute;
+    /* z-index: -1; */
+    bottom: 20px;
+    left: 40px;
+    color: black;
+    font-family: yaboi;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#productZ {
+    position: absolute;
+    top: 7vh;
+    left: 32vw;
+    perspective: 800px;
+}
+
+#red-october {
+    /* display: flex; */
+    font-weight: 800;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    height: 608px;
+    padding-top: 5px;
+    overflow-y: scroll;
+    text-align: justify;
+    transform: skewX(-3.5deg);
+}
+
+#grammatics {
+    position: absolute;
+    text-align: right;
+    width: 286px;
+    right: 40px;
+    bottom: 100px;
+    font-weight: 800;
+}
+
+.zenith_21raw {
+    width: 380px;
+    background-color: black;
+    height: 4px;
+    transform: skewX(-20deg);
+}
+
+.zenith_21raw:first-of-type {
+    /* margin-left: 10px; */
+}
+.zenith_21raw:last-of-type {
+    position: relative;
+    right: 20px;
+}
+
+p {
+    font-family: arial;
+    font-style: italic;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+p:last-of-type {
+    margin-bottom: 0px;
+}
+
+#grammatics p {
+    font-size: 11px;
+    margin-bottom: 7px;
+}
+
+a {
+    color: black;
+}
+
+@media screen and (max-height: 600px) {
+
+    body {
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+
+    body {
+        width: 750px;
+    }
+
+    h1, #util-wrap p {
+        display: none;
+    }
+}

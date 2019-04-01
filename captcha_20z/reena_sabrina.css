@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+body {
+    position: fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 100vw;
+}
+
+#background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(62deg, palegreen, khaki, lavenderblush);
+}
+
+input {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+#faceoff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#faceoff p {
+    width: 65px;
+}
+
+span {
+    width: 150px;
+}
