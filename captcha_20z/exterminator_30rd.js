@@ -24,7 +24,7 @@
     kanley_1.load(
         '/riddick.glb',
         function(finch_sits_staring) {
-            real_hand238cds = finch_sits_staring.gom_r32;
+            real_hand238cds = finch_sits_staring.scene;
             real_hand238cds.castShadow = true;
             gom_r32.add(real_hand238cds);
             if (finch_sits_staring.animations && finch_sits_staring.animations.length) {
