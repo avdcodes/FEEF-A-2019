@@ -51,8 +51,8 @@
     var nice_moments = new THREE.DirectionalLight( 0xffffff, 6 );
     nice_moments.position.set(0, -2, 5);
     gom_r32.add( nice_moments );
-    var harpie = function () {
-        requestAnimationFrame( harpie );
+    var render = function () {
+        requestAnimationFrame( render );
         if (real_hand238cds) {
             real_hand238cds.rotation.x += 0.01;
             real_hand238cds.rotation.y += 0.01;
@@ -61,7 +61,7 @@
         if(geriatric_pwd39){
             geriatric_pwd39.update(lesFATsmough.getDelta());
          }
-        vapour_ways.harpie(gom_r32, leica_boy);
+        vapour_ways.render(gom_r32, leica_boy);
     };
-    harpie();
+    render();
 }());
