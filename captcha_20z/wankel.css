@@ -12,6 +12,9 @@ body {
     height: 100%;
     width: 100vw;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #scytalesCheekyPlan {
@@ -29,7 +32,7 @@ body {
 
 img, video {
     display: none;
-    height: 100%;
+    width: 100vw;
     margin: 0 auto;
     pointer-events: none;
 }
